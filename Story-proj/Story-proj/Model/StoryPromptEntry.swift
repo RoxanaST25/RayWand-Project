@@ -28,7 +28,7 @@ class StoryPromptEntry {
 }
 
 extension StoryPromptEntry: CustomStringConvertible {
-  var description: String {
+  var description: String { 
     return text.replacingOccurrences(of: "<noun>", with: noun)
                .replacingOccurrences(of: "<verb>", with: verb)
                .replacingOccurrences(of: "<number>", with: String(number))
