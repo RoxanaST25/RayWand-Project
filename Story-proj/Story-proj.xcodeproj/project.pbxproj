@@ -16,6 +16,8 @@
 		46E4B1E22A3B8A9C00FFA29A /* Story_projTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4B1E12A3B8A9C00FFA29A /* Story_projTests.swift */; };
 		46E4B1EC2A3B8A9C00FFA29A /* Story_projUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4B1EB2A3B8A9C00FFA29A /* Story_projUITests.swift */; };
 		46E4B1EE2A3B8A9C00FFA29A /* Story_projUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4B1ED2A3B8A9C00FFA29A /* Story_projUITestsLaunchTests.swift */; };
+		46E4B2002A3B8BB400FFA29A /* StoryPromptEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4B1FF2A3B8BB400FFA29A /* StoryPromptEntry.swift */; };
+		46E4B2022A3B8BC400FFA29A /* StoryPrompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4B2012A3B8BC400FFA29A /* StoryPrompts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		46E4B1E72A3B8A9C00FFA29A /* Story-projUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Story-projUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E4B1EB2A3B8A9C00FFA29A /* Story_projUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story_projUITests.swift; sourceTree = "<group>"; };
 		46E4B1ED2A3B8A9C00FFA29A /* Story_projUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story_projUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		46E4B1FF2A3B8BB400FFA29A /* StoryPromptEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPromptEntry.swift; sourceTree = "<group>"; };
+		46E4B2012A3B8BC400FFA29A /* StoryPrompts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPrompts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		46E4B1C92A3B8A9B00FFA29A /* Story-proj */ = {
 			isa = PBXGroup;
 			children = (
+				46E4B1FE2A3B8B9800FFA29A /* Model */,
 				46E4B1CA2A3B8A9B00FFA29A /* AppDelegate.swift */,
 				46E4B1CC2A3B8A9B00FFA29A /* SceneDelegate.swift */,
 				46E4B1CE2A3B8A9B00FFA29A /* ViewController.swift */,
@@ -125,6 +130,15 @@
 				46E4B1ED2A3B8A9C00FFA29A /* Story_projUITestsLaunchTests.swift */,
 			);
 			path = "Story-projUITests";
+			sourceTree = "<group>";
+		};
+		46E4B1FE2A3B8B9800FFA29A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46E4B1FF2A3B8BB400FFA29A /* StoryPromptEntry.swift */,
+				46E4B2012A3B8BC400FFA29A /* StoryPrompts.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46E4B2022A3B8BC400FFA29A /* StoryPrompts.swift in Sources */,
 				46E4B1CF2A3B8A9B00FFA29A /* ViewController.swift in Sources */,
 				46E4B1CB2A3B8A9B00FFA29A /* AppDelegate.swift in Sources */,
+				46E4B2002A3B8BB400FFA29A /* StoryPromptEntry.swift in Sources */,
 				46E4B1CD2A3B8A9B00FFA29A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
