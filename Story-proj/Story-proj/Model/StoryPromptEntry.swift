@@ -34,7 +34,6 @@ extension StoryPromptEntry: CustomStringConvertible {
                .replacingOccurrences(of: "<number>", with: String(number))
                .replacingOccurrences(of: "<adjective>", with: adjective)
   }
-//    Roxana Santana
 //    i can add static values to vars
 //    print or po prints the description of every object
 }
